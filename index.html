@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<link rel="manifest" href="manifest.json">
+  <head>
+        <!-- <script src="http://dev.cloudity.pl:1337/vorlon.js"></script> -->
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Knowledge Session AngularJS App</title>
+
+        <!-- additional scripts -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="resources/jquery/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.css">
+    
+        <!-- stylesheets for app -->
+    <link rel="stylesheet" href="app/app.css" />
+    <link rel="stylesheet" href="app/main-page/main-page.css" />
+    <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
+
+    <!-- angular core libraries -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+
+
+    <script src="/bower_components/angular-aria/angular-aria.js"></script>
+    <script src="/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="/bower_components/angular-messages/angular-messages.js"></script>
+    <script src="/bower_components/angular-material/angular-material.js"></script>
+
+    <!-- main app configuration for angularjs -->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.config.js"></script>
+
+    <!-- angularjs custom modules -->
+    <script src="app/main-page/main-page.module.js"></script>
+    <script src="app/main-page/main-page.component.js"></script>
+
+  </head>
+  <body  ng-app="knowledgeSession" ng-cloak>
+      <div class="container">
+          <div class="row">
+                <div ng-view></div>
+          </div>
+      </div>
+
+<!-- js libraries for bootstrap -->
+      <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+      <script src="resources/jquery/jquery.min.js"></script>
+  </body>
+</html>

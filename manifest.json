@@ -1,0 +1,15 @@
+{
+    "short_name": "LafargeApp",
+    "name": "Lafarge mobile application",
+    "start_url": "index.html",
+    "orientation": "portrait",
+    "display": "fullscreen",
+    "icons": [
+      {
+       "src": "appIcon.png",
+       "sizes": "48x48",
+       "type": "image/png",
+       "density": 1.0
+     }
+    ]
+  }
