@@ -1,6 +1,7 @@
 # AngularJS (1.x) Basic example of using 
 ### Main goal
 - Basic project structure
+- No instalation any packages
 - Basic routing using AngularJS router
 - External HTML templates
 - Controller to manage and maitaining behavior and logic
