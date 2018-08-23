@@ -1,4 +1,4 @@
-# AngularJS (1.x) Basic example of using 
+# AngularJS (1.x) Basic example
 ### Main goal
 - Basic project structure
 - No instalation any packages
