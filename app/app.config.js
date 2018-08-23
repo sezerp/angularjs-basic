@@ -7,7 +7,7 @@ var appModule = angular.
 
             $routeProvider.
                 when('/', {
-                    template: '<main-page></main-page>'
+                    templateUrl : 'app/main-page/main-page.template.html'
                 }).
                 otherwise('/');
         }
